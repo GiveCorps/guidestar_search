@@ -6,6 +6,7 @@ module GuidestarSearch
     attr_reader :parsed_response
     attr_reader :organizations
     attr_reader :total_num_organizations
+    attr_reader :response
 
     def initialize(search_options)
       self.class.base_uri get_base_uri
